@@ -1,0 +1,295 @@
+
+body{
+	background: linear-gradient(179.77deg, #6A2F43 73.3%, #3B111D 99.8%);
+	width: 100%;
+	height: 100%;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+}
+.item1{
+	height: 5vh;
+	width: 7%;
+	margin-left: 2%;
+	margin-right: 1%;
+	margin-bottom: 1vh;
+	margin-top: 2vh;
+}
+.textp{
+	font-size: 19px;
+	color: white;
+
+}
+.item2{
+	height: 5vh;
+	width: 18.3%;
+	margin-left: 1%;
+	margin-right: 1.7%;
+	margin-top: 2vh;
+}
+.item3{
+	height: 20vh;
+	width: 96.3%;
+	background-color: green;
+	margin-left: 2%;
+	margin-right: 1.7%;
+	margin-top: 2vh;
+	margin-bottom: 2.5vh;
+}
+.item4{
+	height: 112vh;
+	width: 15%;
+	background-color: yellow;
+	margin-left: 2%;
+	margin-top: 2vh;
+}
+.item5{
+	
+	height: 110vh;
+	width: 83%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.item5a{
+	height: 46vh;
+	width: 47%;
+	margin-right: 1%;
+	margin-left: 2%;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+
+}
+.item5b{
+	height: 46vh;
+	width: 47%;
+	margin-right: 2%;
+	margin-left: 1%;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	border-color:#E3CA67;
+	border-width: thick;
+}
+.item5c{
+	height: 20vh;
+	width: 20%;
+	margin-left: 2%;
+	margin-right: 1%;
+	margin-bottom: 2vh;
+
+}
+.item5d{
+	height: 20vh;
+	width: 75%;
+	margin-right: 2%;
+}
+.item5e{
+	height: 20vh;
+	width: 20%;
+	margin-left: 2%;
+	margin-right: 1%;
+	margin-bottom: 2vh;
+}
+.item5f{
+	height: 20vh;
+	width: 75%;
+	margin-right: 2%;
+}
+.item5g{
+	height: 20vh;
+	width: 20%;
+	margin-left: 2%;
+	margin-right: 1%;
+	margin-bottom: 2vh;
+}
+.item5h{
+	height: 20vh;
+	width: 75%;
+	margin-right: 2%;
+}
+.img1{
+	width: 100%;
+	height: 100%;
+	border-color:#E3CA67;
+	border-width: thick;
+}
+.img2{
+	width: 100%;
+	height: 100%;
+	border-color:#E3CA67;
+}
+.img3{
+	width: 100%;
+	height: 100%;
+	border-color:#E3CA67;
+	border-image:#E3CA67;
+}
+.img4{
+	width: 100%;
+	height: 100%;
+	border-color:#E3CA67;
+}
+.banner{
+	width: 100%;
+	height: 100%;
+}
+.item2imp{
+	width: 69%;
+
+}
+.logo{
+	width: 100%;
+	height: 100%;
+}
+.teams{
+	width: 100%;
+	height: 100%;
+}
+.text1{
+	font-size: 22px;
+	color: white;
+	margin-bottom: 0.8vh;
+}
+.text2{
+	font-size: 22px;
+	color: white;
+	margin-bottom: 0.8vh;
+}
+.text3{
+	font-size: 22px;
+	color: white;
+	margin-bottom: 0.8vh;
+}
+.text44{
+	font-size: 24px;
+	color: white;
+	margin-bottom: 0vh;
+}
+.prev1,.prev2,.prev3{
+	color: white;
+}
+.bannerla{
+	width: 100%;
+	height: 100%;
+}
+@media(max-width: 700px){
+	body{
+	background-image: url(../img/fundo.png);
+	background-attachment: fixed;
+	background-size: cover;
+}
+	.item4{
+		display: none;
+		margin-top: 0vh;
+		width: 12%;
+	}
+	.item3{
+		width: 95%;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+		height: 8vh;
+		margin-top: -0.001vh;
+	}
+	.item1{
+		height: 3vh;
+		margin-left: 2.5%;
+		width: 16.5%;
+	}
+	.item2{
+		height: 3vh;
+		margin-right: 2.5%;
+		width: 34.5%;
+	}
+	
+	.item2imp{
+		width: 42%;
+		height: 3vh;
+	}
+	.item5a{
+		height: 7vh;
+		width: 98%;
+		margin-right: 1%;
+		margin-left: 1%;
+		margin-top: 0vh;
+		margin-bottom: 1vh;
+		text-align: center;
+	}
+	.item5b{
+		height: 22vh;
+		width: 98%;
+		margin-right: 1%;
+		margin-left: 1%;
+		margin-top: 0vh;
+		margin-bottom: 3vh;
+	
+	}
+	.item5{
+		width: 95%;
+		height:7vh;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+	}
+	.prev2{
+		display: none;
+	}
+	.item5c{
+		height: 10vh;
+		width: 29%;
+		margin-left: 1%;
+		margin-right: 0%;
+		margin-bottom: 3vh;
+		margin-top: 0vh;
+	}
+	.item5d{
+		height: 10vh;
+		margin-top: 0vh;
+		width: 65%;
+		margin-left: 4%;
+		margin-right: 1%;
+		margin-bottom: 3vh;
+	}
+	.item5e{
+		height: 10vh;
+		width: 29%;
+		margin-left: 1%;
+		margin-right: 0%;
+		margin-bottom: 3vh;
+		margin-top: 0vh;
+	}
+	.item5f{
+		height: 10vh;
+		margin-top: 0vh;
+		width: 65%;
+		margin-left: 4%;
+		margin-right: 1%;
+	}
+	.item5h{
+		height: 10vh;
+		margin-top: 0vh;
+		width: 65%;
+		margin-left: 4%;
+		margin-right: 1%;
+	}
+	.item5g{
+		height: 10vh;
+		width: 29%;
+		margin-left: 1%;
+		margin-right: 0%;
+		margin-top: 0vh;
+	}
+
+	.text1, .text2, .text3, .text44{
+		font-size: 16px;
+	}
+	.prev3, .prev1{
+		display: none;
+	}
+	.textp{
+		display: none;
+		font-size: 17px;
+	}
+}
